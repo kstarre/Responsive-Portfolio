@@ -1,0 +1,87 @@
+/*media queries */
+
+@media only screen and (max-width: 980px) {
+	body {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.container {
+		max-width: 500px;
+	}
+	h1, h2, h3, p {
+		margin-bottom: #;
+	}
+	h1 {
+		padding-bottom: #;
+		font-size: 18px;
+		line-height: #;
+	}
+	h2, h3 {
+		font-size: 12px;
+	}
+	#masthead {
+		margin: 0 0 20px;
+	}
+	#logo {
+		width: 165px;
+		height: 60px;
+		font-size: 18px;
+		line-height: #;
+	}
+	nav {
+		margin-top: 15px;
+	}
+	nav a {
+		padding-left: #;
+		margin-left: #;
+		line-height: 18px;
+	}
+	footer {
+		padding: #;
+		font-size: 10px;
+		border-top: 6px;
+	}
+	.sidebar {
+		max-width: 178px;
+		padding: #;
+		margin-bottom: #;
+		line-height: #;
+	}
+	.social {
+		width: 42px;
+		height: 42px;
+		margin-top: 8px;
+		margin-right: 5px;
+	}
+	#main-container {
+		padding-top: #;
+	}
+	.main-section {
+		max-width: 276px;
+		padding: #;
+		margin: #;
+	}
+	.work {
+		width: 130px;
+		margin: #;
+	}
+	.work h3 {
+		bottom: 5px;
+		padding: #;
+		line-height: #;
+	}
+	.auth-image {
+		width: 236px;
+		margin-top: #;
+		margin-right: #;
+	}
+}
+
+*/
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+  
+}
