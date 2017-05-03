@@ -8,13 +8,13 @@
 	.container {
 		max-width: 500px;
 	}
-	h1, h2, h3, p {
-		margin-bottom: #;
-	}
+	/*h1, h2, h3, p {
+		margin-bottom: 20px;
+	} */
 	h1 {
-		padding-bottom: #;
-		font-size: 18px;
-		line-height: #;
+		padding-bottom: 10px;
+		font-size: 20px;
+		line-height: 30px;
 	}
 	h2, h3 {
 		font-size: 12px;
@@ -26,58 +26,69 @@
 		width: 165px;
 		height: 60px;
 		font-size: 18px;
-		line-height: #;
+		line-height: 60px;
 	}
 	nav {
-		margin-top: 15px;
+		margin-top: 20px;
 	}
 	nav a {
-		padding-left: #;
-		margin-left: #;
+		padding-left: 10px;
+		margin-left: 10px;
 		line-height: 18px;
 	}
 	footer {
-		padding: #;
+		padding: 25px 0;
 		font-size: 10px;
-		border-top: 6px;
+		border-top-width: 6px;
 	}
 	.sidebar {
 		max-width: 178px;
-		padding: #;
-		margin-bottom: #;
-		line-height: #;
+		padding: 20px;
+		/*margin-bottom: 20px;*/
+	}
+	h3, .sidebar h2 {
+		padding-bottom: 10px;
+		margin-bottom: 5px;
+		line-height: 15px;
 	}
 	.social {
 		width: 42px;
 		height: 42px;
 		margin-top: 8px;
-		margin-right: 5px;
+		margin-right: 0px;
 	}
 	#main-container {
-		padding-top: #;
+		padding-top: 90px;
 	}
 	.main-section {
 		max-width: 276px;
-		padding: #;
-		margin: #;
+		padding: 20px;
+		margin: 0 0 30px;
 	}
 	.work {
-		width: 130px;
-		margin: #;
+		width: 100%;
+		margin: 0 0 10px 0;
 	}
 	.work h3 {
-		bottom: 5px;
-		padding: #;
-		line-height: #;
+		/*bottom: 20px;*/
+		padding: 10px;
+		/*line-height: 30px;*/
+	}
+	.work:nth-child(even) {
+		margin-right: 0;
+	}
+	.work:last-child {
+		margin-bottom: 0;
 	}
 	.auth-image {
 		width: 236px;
-		margin-top: #;
-		margin-right: #;
+		margin-top: 0;
+		margin-right: 0;
+		margin-bottom: 20px;
 	}
 }
 
-*/
+
 @media only screen and (max-width: 768px) {
 
 }
