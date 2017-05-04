@@ -110,5 +110,39 @@
 }
 
 @media only screen and (max-width: 667px) {
-  
+	.container {
+		width: 320px;
+	}
+	#masthead {
+		position: static;
+	}
+	#masthead .container {
+		width: 100%;
+		max-width: 100%;
+	}
+	#logo {
+		width: 100%;
+	}
+	nav {
+		margin: 10px 90px 10px 0;
+	}
+	#main-container {
+		padding-top: 5px;
+	}
+	.sidebar {
+		max-width: 320px;
+
+	}
+	.main-section {
+		max-width: 320px;
+	}
+	.auth-image {
+		margin-top: 0;
+		margin-right: 0;
+		width: 276px;
+	}
+	.work {
+		width: 100%;
+		margin: 0 0 5px 0;
+	}
 }
