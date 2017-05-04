@@ -124,7 +124,13 @@
 		width: 100%;
 	}
 	nav {
-		margin: 10px 90px 10px 0;
+		margin: 10px 0;
+		width: 100%;
+		text-align: center;
+	}
+	nav a {
+		margin-left: 0;
+		padding-right:10px;
 	}
 	#main-container {
 		padding-top: 5px;
