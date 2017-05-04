@@ -90,9 +90,25 @@
 
 
 @media only screen and (max-width: 768px) {
-
+	.sidebar {
+		max-width: 500px;
+	}
+	.main-section {
+		max-width: 500px;
+	}
+	.auth-image {
+		margin-top: 5px;
+		margin-right: 15px;
+	}
+	.work {
+		width: 200px;
+		margin: 10px 0 15px;
+	}
+	.work:nth-child(even) {
+		margin-right: 15px;
+	}
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 667px) {
   
 }
