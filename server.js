@@ -18,6 +18,7 @@ app.use(bodyParser.json());
 
 // Routes
 require("./routes/html-routes.js")(app);
+require("./routes/mailer.js")(app);
 
 // Start express app
 app.listen(PORT, function() {
