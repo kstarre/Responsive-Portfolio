@@ -1,4 +1,4 @@
-var htmlController = require("htmlController.js");
+var htmlController = require("../controller/htmlController.js");
 
 module.exports = function(app) {
 	app.get("/", htmlController.home);
