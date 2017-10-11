@@ -12,7 +12,7 @@ var PORT = process.env.PORT || 8080;
 
 // Middleware
 app.use(express.static('./public'));
-app.use(favicon(path.join(__dirname, './public/img', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, './public/assets/images/', 'favicon.png')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
