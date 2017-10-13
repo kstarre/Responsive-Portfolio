@@ -6,7 +6,7 @@ module.exports = {
 	send: function(req, res) {
 
 		let transporter = nodemailer.createTransport({
-			service: "Yahoo",
+			service: "hotmail",
 			auth: {
 				user: process.env.EMAIL,
 				pass: process.env.EPASS
