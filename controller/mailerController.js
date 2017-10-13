@@ -19,12 +19,11 @@ module.exports = {
 			text: req.body.message + "\n\n" + req.body.name + "\n\n" + req.body.email
 		}, (err, info) => {
 			if (err) {
-				console.log(err);
 				return res.send(err);
 			}
-			res.send(info);
-			console.log(info.envelope);
-			console.log(info.messageId);
+			else {
+				res.send("Sent");
+			}
 		});
 	}
 };
