@@ -10,8 +10,8 @@ $(document).ready(function() {
 
 	function sendMessage(data) {
 		$.post("/contact/send", data, function(results) {
-			
-		})
+			console.log(results);
+		});
 	}
 
 });
