@@ -1,13 +1,20 @@
 const nodemailer = require("nodemailer");
 
+require('dotenv').config();
+
 module.exports = {
 	send: function(req, res) {
+
 		let transporter = nodemailer.createTransport({
-			sendmail: true
+			service: "Yahoo",
+			auth: {
+				user: process.env.EMAIL,
+				pass: process.env.EPASS
+			}
 		});
 		transporter.sendMail({
 			from: req.body.email,
-			to: 'contact@katie-starrett.com',
+			to: process.env.EMAIL,
 			subject: 'New message from: ' + req.body.email,
 			text: req.body.message + "\n\n" + req.body.name
 		}, (err, info) => {
