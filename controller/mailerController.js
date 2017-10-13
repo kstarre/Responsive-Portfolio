@@ -13,10 +13,10 @@ module.exports = {
 			}
 		});
 		transporter.sendMail({
-			from: req.body.email,
+			from: process.env.EMAIL,
 			to: process.env.EMAIL,
 			subject: 'New message from: ' + req.body.email,
-			text: req.body.message + "\n\n" + req.body.name
+			text: req.body.message + "\n\n" + req.body.name + "\n\n" + req.body.email
 		}, (err, info) => {
 			if (err) {
 				console.log(err);
