@@ -12,7 +12,6 @@ $(document).ready(function() {
 	function sendMessage(data) {
 		$.post("/contact/send", data, function(results) {
 			if (results.accepted) {
-				location.reload();
 				handleSuccess();
 			} else {
 				handleError();
