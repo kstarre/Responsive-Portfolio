@@ -11,6 +11,9 @@
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/d1947033e5.js"></script>
+  <!-- Custom JS -->
   <script type="text/javascript" src="/assets/js/contact.js"></script>
 
 </head>
@@ -28,14 +31,13 @@
   </header>
 
   <div id="main-container" class="container">
-
     <section class="main-section">
       <h1>Contact</h1>
       <form id="contact-form">
         <ul>
           <li>
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            <input type="text" id="name" name="name" placeholder="Your Name" required="required">
           </li>
           <li>
             <label for="email">Email</label>
@@ -46,7 +48,11 @@
             <textarea id="message" name="message" required="required"></textarea>
           </li>
         </ul>
-        <input type="submit">
+        <button id="send-message" type="submit"><i class="fa fa-envelope-o" aria-hidden="true"></i> Submit</button>
+        <div class="alert-div">
+          <span class="alert alert-success"><i class="fa fa-check" aria-hidden="true"></i> Message sent. Thank you!</span>
+          <span class="alert alert-danger"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Something went wrong. Please try again!</span>
+        </div>
       </form>
     </section>
 

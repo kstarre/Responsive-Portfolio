@@ -176,7 +176,21 @@ h3,
   margin-top: 10px;
   margin-right: 25px;
 }
+
 /* contact page */
+.alert-div{
+  display: inline-block;
+}
+.alert{
+  display: none;
+  padding: 20px;
+}
+i.fa.fa-exclamation-triangle {
+  color: #ff0000;
+}
+i.fa.fa-check {
+  color: #4aaaa5;
+}
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -201,7 +215,7 @@ textarea {
 textarea {
   height: 200px;
 }
-input[type=submit] {
+#send-message {
   padding: 10px 30px;
   font-size: 18px;
   color: #fff;

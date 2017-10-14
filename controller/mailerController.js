@@ -22,7 +22,7 @@ module.exports = {
 				return res.send(err);
 			}
 			else {
-				res.send("Sent");
+				res.send(info);
 			}
 		});
 	}
