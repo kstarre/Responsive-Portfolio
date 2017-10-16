@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 	function handleSubmit(event) {
 		event.preventDefault();
-		$(".alert").hide();
+		$(".my-alert").hide();
 		var contactData = $("#contact-form").serialize();
 		sendMessage(contactData);
 	}
@@ -20,11 +20,11 @@ $(document).ready(function() {
 	}
 
 	function handleSuccess() {
-		$(".alert-success").show();
+		$(".my-alert-success").show();
 	}
 
 	function handleError() {
-		$(".alert-danger").show();
+		$(".my-alert-danger").show();
 	}
 
 });

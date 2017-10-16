@@ -140,15 +140,16 @@ h3,
   background: #fff;
   border: 1px solid #ddd;
 }
+
 /* portfolio page */
 .work {
   position: relative;
   float: left;
   width: 274px;
-  margin: 20px 0 25px;
+  margin-top: 20px;
   overflow: auto;
 }
-.work:nth-child(even) {
+a:nth-of-type(2n+1) .work {
   margin-right: 40px;
 }
 .work img {
@@ -181,7 +182,7 @@ h3,
 .alert-div{
   display: inline-block;
 }
-.alert{
+.my-alert{
   display: none;
   padding: 20px;
 }
