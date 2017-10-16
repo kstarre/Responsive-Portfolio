@@ -182,6 +182,9 @@ a:nth-of-type(2n+1) .work {
 .alert-div{
   display: inline-block;
 }
+.button-div {
+  display: inline-block;
+}
 .my-alert{
   display: none;
   padding: 20px;
